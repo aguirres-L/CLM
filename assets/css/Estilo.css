@@ -1,0 +1,295 @@
+/* Comandos globales  */
+img{
+    max-width: 100%;
+    height: auto;
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+html{
+    background-color: #fff;
+    color: rgb(62,62,62);
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 200;/* la letra se pone mas grusa */
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    /* Priorizo la calidad antes que la velicidad*/
+}
+section{
+    padding: 80px 0;
+}
+.donaciones{
+    margin-bottom: 30px;
+}
+/* tipo de texto */
+h1{
+    margin-top: 0 auto;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+   
+    
+    
+}
+h2{
+    font-size: 180%;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+h5{
+    font-size: 180%;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    color: white;
+}
+h2::after,
+h5::after{
+    display: block;
+    height: 2px;
+    background-color: gold;
+    content: "";
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+h3{
+    font-size: 100%;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h4{
+    font-size: 85%;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    border-radius:200px;
+    border: 2px solid gold;
+    width: 200px;
+    text-align: center;
+}
+h4:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/*header*/
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.705),rgb(0,0,0,0.705)), url(/assets/images/backround.jpg);
+    background-size: cover;/* con cover la images se auto adapta */
+    background-position: center;/* posiciono la img en forma central*/
+    height: 100vh;
+}
+/* LOGO*/
+.logo{
+    height: 200px;
+    width: auto;
+    float: left;
+    margin-left:580px;
+    margin-top: 450px;
+}
+/* INICIO */
+.home-container{
+    display: inline-block;
+    margin-left:30px;
+    margin-top: 3px;
+    white-space: 3px;
+    letter-spacing: 1px;
+    transform: translate(-50,50);
+}
+/*CLM*/
+
+.inicio{
+    float: right;
+    list-style: none;
+    margin-top: -60px;
+    margin-right:  150px;
+}
+.inicio li{
+    display: inline-block;
+    margin-left: 40px;
+}
+.inicio li a {
+    text-decoration: none;
+    color: white;
+    font-size: 90%;
+    white-space: 3px;
+    letter-spacing: 1px;
+    transition: border-bootom 0.1s;
+    border: 2px gold;
+}
+.inicio li a:hover{
+    border-bottom: solid 2px gold;
+}
+/* Description */
+.texto-center{
+    width: 95%;
+    margin-left: 50px;
+}
+/* Botones BTN  */
+.btn,
+input[type="submit"]{
+   display: inline-block;
+   padding: 10px 30px;
+   font-size: 200;
+   text-decoration: none;
+   text-align: center;
+   border-radius: 200px;
+   border: 2px solid gold;
+   color: black;
+   margin-left:460px;
+   margin-top: 30px;
+   margin-bottom: 10px;
+   font-size: 20px; 
+}
+input[type="submit"]{
+    margin-left: 3px;
+}
+
+.btn:hover,
+input[type="submit"]:hover{
+    background-color: black;
+    color: white;
+}
+/* Formas de ayudar  */
+.comentarioI{
+    text-align: center;
+    margin-bottom: 50px;
+}
+/*Descricion imagenes */
+
+/* Fomas de Ayudar */
+.ayudas{
+    margin-left: 100px;
+    width: 90%;
+    color: gold;
+}
+
+.imagenes{
+    list-style: none;
+    width: 100%;
+}
+.imagenes li{
+    display: block;/* con esta funcion puedo hacer que las imagenes se  */
+    float: left;   /* adapte como lo hice con el primer projetc */
+    width: 20%;
+    margin-left: 140px;
+}
+.photo{
+    width: 80%;
+    margin: 0;
+    overflow: hidden;
+    
+   
+}
+.photo img{
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: tranform 0.3s, opacity 0.5s;
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -webkit-transition: -webkit-tranform 0.3s, opacity 0.5s;
+    
+}
+.photo img:hover{
+    opacity: 1;
+}
+/* Actividades Didacticas */
+
+.img-actividades {
+    width: 250px;/* De esta forma puedo acomodar las imagenes a mi antojo  */
+    
+    overflow: hidden;
+}
+.img-actividades a{
+    border: 0;
+    list-style: none;
+}
+/* Cuidado y Curiosidades */
+.cuidado-curiosidad{
+    background-color:#6F716F ;
+}
+.caballos-cosas{
+    background-color:#fff;
+    border-radius: 5px;
+    width: 50%;
+    margin-left: 20%;
+    box-shadow: 0 2px 2px #efefef;
+    text-align: center;
+}
+.caballos-cosas li{
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+img.cosas{
+    width: 200px;
+    
+}
+img.cosas2{
+    width: 250px;
+}
+.info-caballo{
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+}
+/* Deja tu Comentario */
+.contac-form{
+    margin-left: 40%;
+    text-align: center;
+}
+.contac-form input,
+.contac-form textarea{
+    text-align: center;
+}
+input, /* aca le doy un formato general a todo el codigo  */
+textarea{
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid gold;
+}
+/* Footer*/
+footer{
+    background-color: rgb(31, 29 ,29);
+    padding: 30px;
+    font-size: 80%;
+}
+.footer-nav{
+    list-style: none;
+    float: left;
+}
+.footer-nav li,
+.footer-nav a{
+    display:inline-block;
+    margin-right: 17px;
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    -webkit-transition: color 02.s;
+    transition: 0.2s;
+    opacity: 0.6;
+}
+.footer-nav li:hover,
+.footer-nav a:hover{
+    color: white;
+    opacity: 1;
+}
+footer p{
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+}

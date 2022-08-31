@@ -1,0 +1,146 @@
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+html{
+    background-color:#ffff;
+    color: rgb(62,62,62);
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;/* Elijo la Calidad antes que la Velocidad*/
+}
+/* Formato de Palabras o Textos */
+h1{
+    margin-top: 0 auto;
+    margin-bottom: 20px;
+    color: #ffff;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+h2{
+    font-size: 180%;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+h2::after{
+    display: block;
+    height: 2px;
+    background-color: gold;
+    content: "";
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+h3{
+    font-size: 100%;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+p.textoo{
+    text-align: center;/* Alineacion del texto */
+}
+/* HEADER */
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.705),rgba(0,0,0,0.705)), url(/assets/images/voluntariado.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+/* LOGO */
+.logo{
+    height: 200px;
+    width: auto;
+    float: left;
+    margin-left: 600px;
+    margin-top: 190px;
+}
+/* INICIO */           
+.inicio{
+    float: right;
+    list-style: none;
+    margin-top: -60px;
+    margin-right: 150px;
+}
+.inicio li{
+    display: inline-block;
+    margin-left: 40px;
+}
+.inicio li a {
+    text-decoration: none;
+    color: white;
+    font-size: 90%;
+    white-space: 3px;
+    letter-spacing: 1px;
+    transition: border-bootom 0.1s;
+    border: 2px  gold;
+}
+.inicio li a:hover{
+    border-bottom: solid 2px gold ;
+}
+
+/* VOLUNTARIADO */
+.vol{
+    width: 580px;
+    margin-left: 235px;
+    margin-bottom: 60px;
+}
+/* Formulario de Contacto */
+.contac-form{
+    margin-left: 40%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.contac-form input,
+.contac-form textarea{
+    text-align: center;
+}
+input, /* aca le doy un formato general a todo el codigo  */
+textarea{
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid gold;
+}
+/* Formulario de Contacto */
+
+/*-----------------*//* FOOTER SIIII S I SI  */
+/*-----------------*//* FOOTER SIIII S I SI  */
+/* Footer*/
+footer{
+    background-color: rgb(31, 29 ,29);
+    padding: 30px;
+    font-size: 80%;
+}
+.footer-nav{
+    list-style: none;
+    float: left;
+}
+.footer-nav li,
+.footer-nav a{
+    display:inline-block;
+    margin-right: 17px;
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    -webkit-transition: color 02.s;
+    transition: 0.2s;
+    opacity: 0.6;
+}
+.footer-nav li:hover,
+.footer-nav a:hover{
+    color: white;
+    opacity: 1;
+}
+footer p{
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+}
